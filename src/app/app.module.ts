@@ -10,14 +10,15 @@ import { HttpClientModule } from '@angular/common/http';
 
 import { ReactiveFormsModule } from '@angular/forms';
 import { ChangeColorDirective } from './change-color.directive';
+import { StudentComponent } from './student/student.component';
+import {TestComponent} from "./test/test.component"
 
 @NgModule({
   declarations: [
     AppComponent,
-
-
-
-    ChangeColorDirective
+    ChangeColorDirective,
+       StudentComponent,
+       TestComponent
   ],
   imports: [
     BrowserModule,
